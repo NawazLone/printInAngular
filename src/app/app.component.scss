@@ -1,0 +1,27 @@
+p {
+  font-family: monospace;
+  text-align: center;
+  font-size: large;
+  padding: 18 px;
+}
+
+button {
+  padding: 10 px;
+  /* left: 10% !important; */
+  margin: 40 px 0 px 13 px 0 px;
+  margin-left: 40%;
+  font-size: inherit;
+
+  &.hover {
+    background-color: blue;
+  }
+}
+button:hover {
+  background-color: orange;
+  color: white;
+}
+@media print {
+  button {
+    display: none;
+  }
+}
